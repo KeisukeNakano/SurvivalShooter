@@ -10,6 +10,7 @@ public class TestButtonClick : MonoBehaviour {
 
 	public void ClickTest () {
 		Debug.Log ("Click");
+		Application.LoadLevel("Level 01");
 	}
 
 	// Update is called once per frame
